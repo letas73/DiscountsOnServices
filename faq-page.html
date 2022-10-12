@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Discount On Services</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="site-container">
+
+    <header class="header">
+  <div class="container header__container flex">
+    <div class="header__logo flex">
+      <a href="index.html" class="header__logo-link">
+        <img src="img/logo.svg" alt="DiscountsOnServices" class="header__logo-img">
+      </a>
+      <span class="header__logo-text">
+        DiscountsOnServices
+      </span>
+    </div>
+    <nav class="header__nav nav">
+      <ul class="nav__list flex">
+        <li class="nav__item nav__item--first flex">
+          <a href="#" class="nav__link nav__link--first">
+            Subscriptions
+          </a>
+          <button class="btn-reset nav__item-btn">
+            <img src="img/arrow-down.svg" alt="">
+          </button>
+          <ul class="nav__droplist">
+            <li class="nav__droplist-item">
+              <a href="netflix.html" class="nav__droplist-link">
+                Netflix
+              </a>
+            </li>
+            <li class="nav__droplist-item">
+              <a href="youtube.html" class="nav__droplist-link">
+                YouTube Premium
+              </a>
+            </li>
+            <li class="nav__droplist-item">
+              <a href="spotify.html" class="nav__droplist-link">
+                Spotify
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav__item">
+          <a href="faq-page.html" class="nav__link">
+            FAQ
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            Support
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            About
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__right flex">
+      <div class="header__social flex">
+        <a href="#" class="header__social-link">
+          <img src="img/whatsapp.svg" alt="whatsapp" class="header__social-img">
+        </a>
+        <a href="#" class="header__social-link">
+          <img src="img/telegram.svg" alt="telegram" class="header__social-img">
+        </a>
+      </div>
+      <div class="header__translate flex translate">
+        <span class="header__translate-lang">
+          En
+        </span>
+        <button class="btn-reset header__translate-btn">
+          <img src="img/arrow-down.svg" alt="">
+        </button>
+        <ul class="translate__dropmenu">
+          <li class="translate__dropmenu-item">
+            <button class="btn-reset translate__dropmenu-lang">
+              English
+            </button>
+          </li>
+          <li class="translate__dropmenu-item">
+            <button class="btn-reset translate__dropmenu-lang">
+              Ukraine
+            </button>
+          </li>
+          <li class="translate__dropmenu-item">
+            <button class="btn-reset translate__dropmenu-lang">
+              Russian
+            </button>
+          </li>
+        </ul>
+      </div>
+      <button class="btn-reset header__login btn-hover modals-btns" data-path="login">
+        Log in
+      </button>
+      <div class="header__profile profile hidden">
+        <button class="btn-reset profile__avatar profile__btn">
+          <img src="img/profile-avatar.svg" alt="аватарка" class="profile__avatar-img">
+        </button>
+        <button class="btn-reset profile__text profile__btn">
+          Profile
+        </button>
+        <button class="btn-reset profile__arrow profile__btn"></button>
+      </div>
+    </div>
+    <div class="mobile">
+      <button class="btn-reset burger">
+        <span class="burger__line"></span>
+      </button>
+      <div class="mobile__inner">
+
+      </div>
+    </div>
+</header>
+
+    <main class="main">
+
+      <section class="faq-page">
+  <div class="container faq-page__container">
+    <h2 class="page-title faq-page__title">
+      How can we help you?
+    </h2>
+    <ul class="faq__list">
+      <li class="faq__item">
+        <div class="faq__item-wrapper">
+          <div class="faq__question">
+            The set time has passed, but the invoice has not yet arrived, what should I do?
+          </div>
+          <button class="btn-reset faq__btn" data-item="#item_1">
+            <img src="img/faq-arrow.svg" alt="" class="faq__arrow faq__arrow-1">
+            <img src="img/faq-arrow-top.svg" alt="" class="faq__arrow faq__arrow-2 faq__arrow--noactive">
+          </button>
+        </div>
+        <div class="faq__inner" id="item_1">
+          Payment options we currently have: PayPal, Bitcoin.
+        </div>
+      </li>
+      <li class="faq__item">
+        <div class="faq__item-wrapper">
+          <div class="faq__question">
+            Can I change my Netflix account email and password after purchase?
+          </div>
+          <button class="btn-reset faq__btn" data-item="#item_2">
+            <img src="img/faq-arrow.svg" alt="" class="faq__arrow faq__arrow-1">
+            <img src="img/faq-arrow-top.svg" alt="" class="faq__arrow faq__arrow-2 faq__arrow--noactive">
+          </button>
+        </div>
+        <div class="faq__inner" id="item_2">
+          Payment options we currently have: PayPal, Bitcoin.
+        </div>
+      </li>
+      <li class="faq__item">
+        <div class="faq__item-wrapper">
+          <div class="faq__question">
+            Can I add a phone number for password recovery?
+          </div>
+          <button class="btn-reset faq__btn" data-item="#item_3">
+            <img src="img/faq-arrow.svg" alt="" class="faq__arrow faq__arrow-1">
+            <img src="img/faq-arrow-top.svg" alt="" class="faq__arrow faq__arrow-2 faq__arrow--noactive">
+          </button>
+        </div>
+        <div class="faq__inner" id="item_3">
+          Payment options we currently have: PayPal, Bitcoin.
+        </div>
+      </li>
+      <li class="faq__item">
+        <div class="faq__item-wrapper">
+          <div class="faq__question">
+            How soon will I receive the account information I ordered?
+          </div>
+          <button class="btn-reset faq__btn" data-item="#item_4">
+            <img src="img/faq-arrow.svg" alt="" class="faq__arrow faq__arrow-1">
+            <img src="img/faq-arrow-top.svg" alt="" class="faq__arrow faq__arrow-2 faq__arrow--noactive">
+          </button>
+        </div>
+        <div class="faq__inner"  id="item_4">
+          Payment options we currently have: PayPal, Bitcoin.
+        </div>
+      </li>
+      <li class="faq__item">
+        <div class="faq__item-wrapper">
+          <div class="faq__question">
+            How to pay?
+          </div>
+          <button class="btn-reset faq__btn" data-item="#item_5">
+            <img src="img/faq-arrow.svg" alt="" class="faq__arrow faq__arrow-1">
+            <img src="img/faq-arrow-top.svg" alt="" class="faq__arrow faq__arrow-2 faq__arrow--noactive">
+          </button>
+        </div>
+        <div class="faq__inner" id="item_5">
+          Payment options we currently have: PayPal, Bitcoin.
+        </div>
+      </li>
+    </ul>
+    <button class="btn-reset faq__support btn-hover btn-hover--primary">
+      Support
+    </button>
+  </div>
+</section>
+
+      <div class="modals logout">
+  <div class="modal-overlay">
+    <div class="modal logout__window">
+      <button class="btn-reset modal-close">
+        <img src="img/modal-close.svg" alt="закрыть" class="modal-close__img">
+      </button>
+      <h3 class="modal__title logout__title">
+        Are you sure want to logout?
+      </h3>
+      <div class="logout__btns">
+        <button class="btn-reset btn-hover logout__btns-cancel">
+          Cancel
+        </button>
+        <button class="btn-reset btn-hover logout__btns-agree">
+          Yes, Logout
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="modals login" data-target="login">
+  <div class="modal-overlay">
+    <div class="modal login__window">
+      <button class="btn-reset modal-close" data-close="login">
+        <img src="img/modal-close.svg" alt="закрыть" class="modal-close__img">
+      </button>
+      <h3 class="modal__title login__title">
+        Log in
+      </h3>
+      <div class="modal__question">
+        <span>New user? </span>
+        <button class="btn-reset modal__question-btn modals-btns" data-path="acc">
+          Create an account
+        </button>
+      </div>
+      <form action="/" class="modal__form login__form">
+        <div class="modal__form-field">
+          <label class="modal__form-label">
+            Email Address
+          </label>
+          <input type="email" class="modal__form-input" placeholder="Enter your e-mail">
+        </div>
+        <div class="modal__form-field">
+          <label class="modal__form-label">
+            Password
+          </label>
+          <input type="password" class="modal__form-input" placeholder="********">
+        </div>
+      </form>
+      <div class="login__subform">
+        <button class="btn-reset login__subform-forfot">
+          Forfot password?
+        </button>
+        <button class="btn-reset btn-hover login__subform-btn">
+          Log in
+        </button>
+      </div>
+      <div class="modal__sign login__sign">
+        <div class="modal__sign-top">
+          <div class="modal__sign-line"></div>
+          <div class="modal__sign-caption">
+            Or sign in with
+          </div>
+          <div class="modal__sign-line"></div>
+        </div>
+        <ul class="modal__sign-list">
+          <li class="modal__sign-item">
+            <a href="#" class="modal__sign-social">
+              <img src="img/modal-google.svg" alt="sign in with google" class="modal__sign-img">
+            </a>
+          </li>
+          <li class="modal__sign-item">
+            <a href="#" class="modal__sign-social">
+              <img src="img/modal-fb.svg" alt="sign in with facebook" class="modal__sign-img">
+            </a>
+          </li>
+          <li class="modal__sign-item">
+            <a href="#" class="modal__sign-social">
+              <img src="img/modal-apple.svg" alt="sign in with apple" class="modal__sign-img">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="login__privacy modal__privacy">
+        Protected by reCAPTCHA and subject to the Google <a href="#" class="modal__privacy-link">Privacy Policy</a> and <a href="#" class="modal__privacy-link modal__privacy-link--black">Terms of Service.</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__column">
+      <div class="footer__left">
+        <div class="footer__logo">
+          <a href="index.html" class="footer__logo-link">
+            <img src="img/footer-logo.png" alt="" class="footer__logo-img">
+          </a>
+          <span class="footer__logo-caption">
+            DiscountsOnServices
+          </span>
+        </div>
+        <div class="footer__quote">
+          It’s simple, fast and economical
+        </div>
+      </div>
+      <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <div class="footer__nav-title">
+                Subscriptions
+              </div>
+            </li>
+            <li class="footer__nav-item">
+              <a href="netflix.html" class="footer__nav-link">
+                Netflix
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="youtube.html" class="footer__nav-link">
+                YouTube Premium
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="spotify.html" class="footer__nav-link">
+                Spotify
+              </a>
+            </li>
+          </ul>
+      </nav>
+      <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <div class="footer__nav-title">
+                Site navigation
+              </div>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">
+                About
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="faq-page.html" class="footer__nav-link">
+                FAQ
+              </a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">
+                Support
+              </a>
+            </li>
+          </ul>
+      </nav>
+      <div class="footer__right">
+        <div class="footer__messager">
+          <a href="#" class="footer__messager-link">
+            <img src="img/footer-whatsapp.svg" alt="" class="footer__messager-icon">
+          </a>
+          <a href="#" class="footer__messager-link">
+            <img src="img/footer-telegram.svg" alt="" class="footer__messager-icon">
+          </a>
+        </div>
+        <div class="footer__translate translate">
+          <span class="footer__translate-lang">
+            En
+          </span>
+          <button class="btn-reset footer__translate-btn">
+            <img src="img/footer-arrow-down.svg" alt="" class="footer__translate-arrow">
+          </button>
+          <ul class="translate__dropmenu footer__translate-dropmenu">
+            <li class="translate__dropmenu-item">
+              <button class="btn-reset translate__dropmenu-lang">
+                English
+              </button>
+            </li>
+            <li class="translate__dropmenu-item">
+              <button class="btn-reset translate__dropmenu-lang">
+                Ukraine
+              </button>
+            </li>
+            <li class="translate__dropmenu-item">
+              <button class="btn-reset translate__dropmenu-lang">
+                Russian
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <small class="footer__privacy">
+        Privacy Policy
+      </small>
+      <copyright class="footer__copyright">
+        Copyright 2021 © All Rights Reserved
+      </copyright>
+      <small class="footer__developed">
+        Developed by …
+      </small>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
